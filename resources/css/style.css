@@ -5,11 +5,13 @@ html {
   font-size: 16px;
   text-decoration: none;
   list-style: none;
-  width: 100%;
+                                                                 
 }
 
 body {
   margin: 0 auto;
+  width: 100%;
+  
 }
 
 .main-content {
@@ -41,6 +43,10 @@ body {
   .main-content {
     top: 2.5625rem;
   }
+
+  body {
+    width: 100%
+  }
 }
 
 /* Header */
@@ -63,7 +69,8 @@ header .content {
   align-items: center;
   padding: 0 30px;
   height: 85px;
-  
+  width: 90%;
+  margin: 0 auto;
 }
 
 header .logo {
@@ -125,7 +132,7 @@ header .tablet {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 90%;
   }
 
   header .tablet li {
@@ -155,14 +162,13 @@ header .tablet {
 
   header .mobile {
     display: flex;
-    width: 100%;
+    width: 90%;
     
   }
 
   header .content {
     padding: .5rem 1rem;
-    
-    max-width: 100%;
+    width: 100%;
     height: 48px;
   }
 
