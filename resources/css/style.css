@@ -13,7 +13,7 @@ body {
 }
 
 .main-content {
-  
+  position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
 }
 
@@ -142,7 +142,7 @@ header .mobile {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: auto;
+  
 }
 
 #sign-up-cta {
@@ -151,7 +151,7 @@ header .mobile {
   border-radius: 4px;
   background-color: #9dc20b;
   position: relative;
-  top: 170px;
+  top: 171px;
   left: 10%;
 }
 
@@ -262,7 +262,7 @@ header .mobile {
 .feature .image-container {
   width: 90%;
   height: 65%;
-  
+  margin: 0 auto;
 }
 
 .feature h2 {
@@ -307,7 +307,7 @@ header .mobile {
 /* Filters Section */
 
 #filters-section {
-  padding: 4rem 0;
+  padding: 64px 0;
   background-color: #4a4a4a;
 }
 
@@ -320,6 +320,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  margin: 0 auto;
 }
 
 #filters-section .content h3 {
@@ -327,9 +328,11 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  margin: 0 auto;
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -368,13 +371,19 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding: 80px 0;
 }
 
 #quotes-section content {
-  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.5rem;
 }
 
-#quotes-section quote {
+
+
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
