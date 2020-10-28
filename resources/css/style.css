@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  margin: auto;
+  margin: 0 auto;
 }
 
 .main-content {
-  position: relative;
+  
   top: 5.3125rem; /* To offset for fixed header. */
 }
 
@@ -33,6 +33,7 @@ body {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -165,11 +166,14 @@ header .mobile {
 }
 
 #sign-up-cta h1 {
-  font-size: 3.125rem;
+  font-size: 50px;
+  font-weight: normal;
 }
 
 #sign-up-cta h2 {
   font-size: 2.25rem;
+  margin: 0;
+  font-weight: normal;
 }
 
 #sign-up-cta span strong {
@@ -178,11 +182,14 @@ header .mobile {
 
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
+  margin: 0;
 }
 
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
-  padding-bottom: .75rem;
+  margin: 0;
+  padding-bottom: 12px;
+  font-weight: normal;
 }
 
 #sign-up-cta .button {
@@ -255,7 +262,7 @@ header .mobile {
 .feature .image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  
 }
 
 .feature h2 {
