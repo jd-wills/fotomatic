@@ -5,7 +5,7 @@ html {
   font-size: 16px;
   text-decoration: none;
   list-style: none;
-  
+  width: 100%;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
 }
 
 .main-content {
+  width: 100%;
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
 }
@@ -112,11 +113,12 @@ header .tablet {
 
   header .tablet {
     display: block;
-    width: 100%;
+    width: 90%;
   }
 
   header .content {
     padding: .5rem .75rem;
+    width: 90%;
   }
 
   header .tablet ul {
