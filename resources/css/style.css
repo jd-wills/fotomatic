@@ -125,7 +125,7 @@ header .tablet {
 
   header .content {
     padding: .5rem .75rem;
-    width: fit-content;
+    width: 90%;
   }
 
   header .tablet ul {
@@ -273,6 +273,7 @@ header .tablet {
     height: auto;
     background-color: transparent;
     border: none;
+    margin-top: 60px;
   }
 
   #sign-up-cta .content {
@@ -295,6 +296,10 @@ header .tablet {
 @media only screen and (max-width: 480px) {
   #sign-up-section {
     height: 20rem;
+  }
+
+  #sign-up-cta {
+    margin-top: 60px;
   }
 
   #sign-up-cta h1 {
@@ -479,6 +484,7 @@ header .tablet {
     font-size: 1.5rem;
     line-height: 1.4;
     display: block;
+    padding: 0 1.75rem;
   }
 
   #quotes-section .quote-citation {
@@ -489,6 +495,12 @@ header .tablet {
 }
 
 @media only screen and (max-width: 768px) {
+
+  #quotes-section {
+    background-color: #f3f3f3;
+    padding: 40px 0;
+  }
+
   #quotes-section .content {
     flex-flow: column;
     padding: 1.875rem .625rem;  
@@ -498,6 +510,7 @@ header .tablet {
     font-size: 1.5rem;
     line-height: 1.4;
     display: block;
+    padding: 0 1.75rem;
   }
 
   #quotes-section .quote-citation {
